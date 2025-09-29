@@ -136,10 +136,12 @@ header {
 }
 
 .content__main-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 30px;
+display: flex
+;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 
 .content__main-list-item {
@@ -200,7 +202,8 @@ header {
 .content__side-box {
   display: flex;
   flex-direction: column;
-}
+
+ } 
 
 .content__side-list {
   display: flex;
